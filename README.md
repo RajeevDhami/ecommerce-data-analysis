@@ -1,57 +1,55 @@
-# E-Commerce Data Analysis (SQL Project)
+# Pizza Sales Performance Dashboard
 
-## Overview
-This project analyzes e-commerce sales data using SQL.
-The objective is to clean the data, derive business metrics,
-and answer key analytical questions related to revenue,
-order status, and performance.
+## 📌 Project Overview
+This project analyzes pizza sales data to understand business performance, customer ordering patterns, and product-level insights.  
+SQL Server was used for data analysis, and Google Sheets was used to build an interactive dashboard.
 
-## Dataset
-The dataset contains sales order information including:
-- Order details
-- Product and category information
-- Customer and region data
-- Order status and pricing
+---
 
-## Tasks Performed
+## 🛠 Tools & Technologies
+- SQL Server (SSMS)
+- Google Sheets
+- GitHub
 
-### Task 1: Data Preparation
-- Cleaned raw data
-- Converted data types
-- Created derived columns:
-  - Total_Revenue
-  - Order_Type (High Value / Standard Value)
+---
 
-### Task 2: Aggregation & Conditional Analysis
-- Total revenue from all orders
-- Revenue from shipped orders
-- Count of pending orders
-- Used conditional aggregation
+## 📊 Key KPIs
+- Total Revenue
+- Total Orders
+- Total Pizzas Sold
+- Average Order Value
+- Average Pizzas per Order
 
-### Task 3: Data Summarization
-- Region-wise revenue analysis
-- Product performance by order status
-- Sales representative performance by order type
+---
 
-### Task 4: Visualization Support
-- Generated SQL result sets for:
-  - Revenue by category (bar chart)
-  - Order status distribution (pie chart)
+## 📈 Analysis Performed
+- Daily trend analysis (orders by day of week)
+- Hourly trend analysis (orders by hour)
+- Sales distribution by pizza category
+- Sales distribution by pizza size
+- Top 5 best-selling pizzas
+- Bottom 5 worst-selling pizzas
 
-## Tools Used
-- MySQL
-- MySQL Workbench
+---
 
-## Key SQL Concepts Used
-- GROUP BY and aggregations
-- CASE expressions
-- Conditional counting
-- Indexing for performance
-- Percentage calculations
+## 📂 Project Structure
 
-## How to Use
-- Run queries from `ecommerce_analysis.sql`
-- Review results using screenshots or exported CSVs
+---
 
-## Author
-Rajeev Dhami
+## 📎 Dashboard Preview
+The final dashboard is available as a PDF in the `dashboard/` folder.
+
+👉 Google Sheets link: https://docs.google.com/spreadsheets/d/1RWRpV0emlzCJ1fNovM7p3GfuJOTJtZW7cNSTHkx6c3c/edit?usp=sharing
+
+---
+
+## ✅ Key Learnings
+- Writing clean, modular SQL queries
+- Using window functions for percentage calculations
+- Performing trend and product performance analysis
+- Building a business-focused dashboard from SQL outputs
+
+---
+
+## 👤 Author
+**Rajeev Dhami**
